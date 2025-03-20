@@ -1,0 +1,35 @@
+/* Regular 폰트 */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../../../public/fonts/CookieRun-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold 폰트 */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../../../public/fonts/CookieRun-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Black 폰트 */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../../../public/fonts/CookieRun-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Tailwind 기본 리셋 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HTML 태그에 기본 폰트 적용 */
+@layer base {
+  html {
+    font-family: 'CustomFont', sans-serif;
+  }
+}
