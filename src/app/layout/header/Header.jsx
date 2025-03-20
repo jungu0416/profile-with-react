@@ -1,3 +1,4 @@
+import { Github } from 'lucide-react'
 import Button from '../../../shared/components/Button'
 
 function Header() {
@@ -19,16 +20,16 @@ function Menu() {
   return (
     <ul className="flex gap-10">
       <li>
-        <Button>github</Button>
+        <Button>blog</Button>
       </li>
       <li>
-        <Button>github</Button>
+        <Button>projects</Button>
       </li>
       <li>
-        <Button>github</Button>
-      </li>
-      <li>
-        <Button>github</Button>
+        <Button>
+          <Github />
+          github
+        </Button>
       </li>
     </ul>
   )
