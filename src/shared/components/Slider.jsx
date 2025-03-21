@@ -28,7 +28,7 @@ function Slider() {
     <div className="overflow-hidden" ref={emblaRef}>
       <div className="flex">
         {Array.from({ length: 10 }).map((_, index) => (
-          <div key={index} className="min-w-[calc(25%-1rem)] mr-4 flex justify-center items-center bg-blue-300 h-64 text-white text-2xl">
+          <div key={index} className="min-w-[calc(25%-1rem)] mr-4 flex justify-center items-center bg-blue-300 h-64 text-white text-2xl rounded-xl ">
             Slide {index + 1}
           </div>
         ))}

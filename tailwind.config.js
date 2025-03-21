@@ -6,6 +6,25 @@ export default {
       width: {
         container: '1272px', // 커스텀 width 변수 추가
       },
+      keyframes: {
+        fadeInLeft: {
+          '0%': { opacity: 0, transform: 'translateX(-50px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+        fadeInRight: {
+          '0%': { opacity: 0, transform: 'translateX(50px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
+      animation: {
+        fadeInLeft: 'fadeInLeft 1s ease-out',
+        fadeInRight: 'fadeInRight 1s ease-out',
+        fadeIn: 'fadeIn 1s ease-out',
+      },
     },
   },
   plugins: [],

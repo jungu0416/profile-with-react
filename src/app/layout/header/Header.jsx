@@ -1,5 +1,6 @@
 import { Github } from 'lucide-react'
 import Button from '../../../shared/components/Button'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -13,22 +14,26 @@ function Header() {
 }
 
 function Logo() {
-  return <span>로고</span>
+  return <Link to="/">로고</Link>
 }
 
 function Menu() {
   return (
     <ul className="flex gap-10">
       <li>
-        <Button>blog</Button>
+        <Button>
+          <a href="https://naver.com">blog</a>
+        </Button>
       </li>
       <li>
-        <Button>projects</Button>
+        <Button>
+          <a href="https://naver.com">Projects</a>
+        </Button>
       </li>
       <li>
         <Button>
           <Github />
-          github
+          <a href="https://github.com/jungu0416">github</a>
         </Button>
       </li>
     </ul>
