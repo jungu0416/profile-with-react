@@ -6,13 +6,16 @@ export default {
       width: {
         container: '1272px', // 커스텀 width 변수 추가
       },
+      colors: {
+        primary: '#0B030A', // 기본 텍스트 색상 설정
+      },
       keyframes: {
         fadeInLeft: {
-          '0%': { opacity: 0, transform: 'translateX(-50px)' },
+          '0%': { opacity: 0, transform: 'translateX(-150px)' },
           '100%': { opacity: 1, transform: 'translateX(0)' },
         },
         fadeInRight: {
-          '0%': { opacity: 0, transform: 'translateX(50px)' },
+          '0%': { opacity: 0, transform: 'translateX(150px)' },
           '100%': { opacity: 1, transform: 'translateX(0)' },
         },
         fadeIn: {
@@ -27,5 +30,11 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase, theme }) {
+      addBase({
+        html: { color: theme('colors.primary') },
+      })
+    },
+  ],
 }

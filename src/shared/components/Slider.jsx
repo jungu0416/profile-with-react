@@ -10,18 +10,17 @@ function Slider() {
 
   const smoothScroll = useCallback(() => {
     if (!emblaApi) return
-    emblaApi.scrollNext() // 다음 슬라이드로 이동
+    emblaApi.scrollNext()
   }, [emblaApi])
 
   useEffect(() => {
     if (!emblaApi) return
 
-    // 3초 간격으로 슬라이드가 이동하도록 설정
     const intervalId = setInterval(() => {
       smoothScroll()
-    }, 3000) // 3초마다 슬라이드가 자동으로 넘어감
+    }, 1500)
 
-    return () => clearInterval(intervalId) // 컴포넌트 언마운트 시 interval 종료
+    return () => clearInterval(intervalId)
   }, [emblaApi, smoothScroll])
 
   return (
