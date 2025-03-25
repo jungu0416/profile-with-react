@@ -15,7 +15,7 @@ function Info() {
       <div className={`w-container flex justify-center mx-auto relative transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
         <Summary content={['코딩부터', '서버 운용까지']} position={{ top: '20px', left: '30px' }} animate="animate-fadeInLeft" />
         <ProfileImg />
-        <Summary content={['개발의', '모든 것']} position={{ bottom: '50px', right: '150px' }} animate="animate-fadeInRight" />
+        <Summary content={['개발의', '모든 것']} position={{ bottom: '50px', right: '185px' }} animate="animate-fadeInRight" />
       </div>
       <SloganBg align="text-right" animate="animate-fadeInRight">
         Administrator

@@ -19,9 +19,10 @@ function Main() {
               <ArrowRight />
             </Link>
           </div>
-
-          <Posts title={'블로그'} />
-          <Posts title={'토이프로젝트'} />
+          <div className="w-container my-8 text-2xl">
+            <Posts title={'블로그'} />
+            <Posts title={'토이프로젝트'} />
+          </div>
         </article>
       </section>
     </main>

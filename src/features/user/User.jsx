@@ -9,9 +9,11 @@ function User() {
       <section className="flex h-[3200px] relative justify-center">
         <article className="w-[98%] mt-[-30px] pb-8 bg-white absolute rounded-xl shadow-lg backdrop-blur-lg bg-opacity-80">
           <Info />
-          <About />
-          <Resume />
-          <Enterprise />
+          <div className="flex flex-col justify-center items-center w-container mx-auto mt-40">
+            <About />
+            <Resume />
+            <Enterprise />
+          </div>
         </article>
       </section>
     </main>
