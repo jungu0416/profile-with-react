@@ -13,9 +13,9 @@ function Info() {
     <>
       <SloganBg animate="animate-fadeInLeft">I'm</SloganBg>
       <div className={`w-container flex justify-center mx-auto relative transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-        <Summary content={['개발부터 배포까지', '다~ 해보는']} position={{ top: '20px', left: '75px' }} animate="animate-fadeInLeft" />
+        <Summary content={['코딩부터', '서버 운용까지']} position={{ top: '20px', left: '30px' }} animate="animate-fadeInLeft" />
         <ProfileImg />
-        <Summary content={['관리자', '강준구입니다']} position={{ bottom: '50px', right: '150px' }} animate="animate-fadeInRight" />
+        <Summary content={['개발의', '모든 것']} position={{ bottom: '50px', right: '150px' }} animate="animate-fadeInRight" />
       </div>
       <SloganBg align="text-right" animate="animate-fadeInRight">
         Administrator

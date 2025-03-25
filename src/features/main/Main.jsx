@@ -13,10 +13,10 @@ function Main() {
           <div className="w-full overflow-hidden bg-gray-100 py-2 flex justify-center">
             <p className="text-sm text-gray-700 animate-ticker">🚀 이 서버는 마포구 어느 방구석에서 실행 중입니다... 🚀</p>
           </div>
-
-          <div className="text-lg text-blue-600">
-            <Link to="/whyHomeserver" className="flex items-center gap-1">
-              내가 AWS에서 홈서버로 이전한 이유 <ArrowRight />
+          <div className="text-m text-gray-400 m-2">
+            <Link to="/whyHomeserver" className="flex items-center ">
+              AWS에서 방구석 홈서버로 갈아탄 이유
+              <ArrowRight />
             </Link>
           </div>
 

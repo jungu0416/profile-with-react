@@ -12,7 +12,7 @@ function Introduce() {
       <div className="w-[742px]">
         {/* <p className="mt-14 text-2xl font-bold">강준구</p> */}
         <figure className="mt-10 text-gray-400 text-[60px] text-center">"나는 개발자..? 관리자..? "</figure>
-        <div className="mt-7 ml-10 text-lg text-blue-600">
+        <div className="mt-5 ml-10 text-lg text-blue-600">
           <Link to="/whoAmI" className="flex items-center gap-1">
             더 알아보기 <ArrowRight />
           </Link>
