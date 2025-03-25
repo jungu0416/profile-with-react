@@ -22,11 +22,16 @@ export default {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 },
         },
+        ticker: {
+          from: { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
       animation: {
         fadeInLeft: 'fadeInLeft 1s ease-out',
         fadeInRight: 'fadeInRight 1s ease-out',
         fadeIn: 'fadeIn 1s ease-out',
+        ticker: 'ticker 10s linear infinite',
       },
     },
   },

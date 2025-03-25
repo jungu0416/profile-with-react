@@ -14,7 +14,11 @@ function Header() {
 }
 
 function Logo() {
-  return <Link to="/">로고</Link>
+  return (
+    <Link to="/">
+      <img src="/public/images/LOGO.png" className="w-[125px]" />
+    </Link>
+  )
 }
 
 function Menu() {
