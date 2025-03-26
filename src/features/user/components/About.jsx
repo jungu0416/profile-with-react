@@ -42,17 +42,25 @@ function About() {
             <SkillBox location={'/public/images/react.png'} />
             <SkillBox location={'/public/images/java.png'} />
             <SkillBox location={'/public/images/springboot.png'} />
-            <SkillBox location={'/public/images/gradle.png'} />
+            <SkillBox location={'/public/images/docker.jpg'} />
             <SkillBox location={'/public/images/mariadb.png'} />
-            <SkillBox location={'/public/images/docker.png'} />
-            <SkillBox location={'/public/images/centos.png'} />
-            <SkillBox location={'/public/images/git.png'} />
             <SkillBox location={'/public/images/nodejs.png'} />
+            <SkillBox location={'/public/images/centos.png'} />
+            <SkillBox location={'/public/images/gradle.png'} />
+            <SkillBox location={'/public/images/git.png'} />
+            <SkillBox location={'/public/images/jenkins.png'} />
             <SkillBox location={'/public/images/nginx.png'} />
+            <SkillBox location={'/public/images/nextjs.png'} />
             <SkillBox location={'/public/images/tomcat.png'} />
+            <SkillBox location={'/public/images/aws.png'} />
+            <SkillBox location={'/public/images/oracle.png'} />
+            <SkillBox location={'/public/images/supabase.jpg'} />
+            <SkillBox location={'/public/images/ubuntu.png'} />
+            <SkillBox location={'/public/images/windows-server.jpg'} />
+            <SkillBox location={'/public/images/svn.png'} />
           </div>
         </div>
-        <div className="w-1/2 px-8">
+        <div className="w-1/2 px-8 m-auto">
           <blockquote className="text-2xl mb-5">People who are really serious about software should make their own hardware - Alan Kay -</blockquote>
           <p className="mb-4">전체를 알아야 관리를 할 수 있습니다. -강준구-</p>
           <p className="text-gray-400 mb-8">
