@@ -1,7 +1,7 @@
 /* Regular 폰트 */
 @font-face {
   font-family: 'KakaoSmallSans';
-  src: url('../../../public/fonts/KakaoSmallSans-Light.ttf') format('truetype');
+  src: url('/fonts/KakaoSmallSans-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Bold 폰트 */
 @font-face {
   font-family: 'KakaoSmallSans';
-  src: url('../../../public/fonts/KakaoSmallSans-Regular') format('truetype');
+  src: url('/fonts/KakaoSmallSans-Regular') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 /* Black 폰트 */
 @font-face {
   font-family: 'KakaoSmallSans';
-  src: url('../../../public/fonts/KakaoSmallSans-Bold.ttf') format('truetype');
+  src: url('/fonts/KakaoSmallSans-Bold.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }

@@ -5,7 +5,7 @@ function Introduce() {
   return (
     <div className="w-container py-[80px] relative flex flex-col items-center">
       <img
-        src="/public/images/main/mini-profile.png"
+        src="/images/main/mini-profile.png"
         alt="프로필사진"
         className="size-24 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full"
       />

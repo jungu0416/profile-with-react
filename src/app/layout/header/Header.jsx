@@ -16,7 +16,7 @@ function Header() {
 function Logo() {
   return (
     <Link to="/">
-      <img src="/public/images/LOGO.png" className="w-[125px]" />
+      <img src="/images/LOGO.png" className="w-[125px]" />
     </Link>
   )
 }

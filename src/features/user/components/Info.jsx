@@ -29,7 +29,7 @@ function SloganBg({ align = 'text-start', animate, children }) {
 }
 
 function ProfileImg() {
-  return <img src="/public/images/user/여권사진.jpg" alt="프로필 사진" className="rounded-lg shadow-lg" />
+  return <img src="/images/user/여권사진.jpg" alt="프로필 사진" className="rounded-lg shadow-lg" />
 }
 
 function Summary({ content, position, animate }) {

@@ -36,7 +36,7 @@ function About() {
           <h2 className="text-xl mb-10 text-gray-400">#Main Skills</h2>
           <div className="flex flex-wrap p-10 gap-1">
             {MYSKILLS.map((skill, index) => (
-              <SkillBox key={index} location={`/public/images/${skill}.png`} />
+              <SkillBox key={index} location={`/images/${skill}.png`} />
             ))}
           </div>
         </div>
