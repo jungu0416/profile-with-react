@@ -44,8 +44,12 @@ function About() {
           <blockquote className="text-2xl mb-5">People who are really serious about software should make their own hardware - Alan Kay -</blockquote>
           <p className="mb-8">전체를 알아야 관리를 할 수 있습니다. -강준구-</p>
           <p className="text-gray-400 mb-8">
-            Backend 실무 개발 3년차 & Frontend 개발을 통해 풀스택을 향해 질주하는 개발자입니다. 화면과 비지니스 로직 모두 중시하고 이 모든게 잘
-            합쳐져야 좋은 서비스를 만들 수 있다 생각합니다.
+            개발부터 배포까지 전체 과정을 이해하고 관리합니다. 화면과 비즈니스 로직 모두를 균형 있게 고려하며, 각 요소가 유기적으로 조화를 이룰 때
+            비로소 좋은 서비스가 완성된다고 믿습니다.
+          </p>
+          <p className="text-gray-400 mb-8">
+            다양한 환경과 역할을 경험하며 폭넓은 시야를 갖추었습니다. 문제를 깊이 이해하고 스스로 해결해내는 힘을 키웠습니다. 또한 소통을 통해
+            비즈니스와 기술을 연결하며, 함께 성장하는 개발 문화를 만들어갑니다.
           </p>
           <ul className="mt-20">
             <li>Birth: 1996-01-23</li>

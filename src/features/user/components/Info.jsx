@@ -12,9 +12,13 @@ function Info() {
   return (
     <>
       <SloganBg animate="animate-fadeInLeft">I'm</SloganBg>
-      <div className={`w-container flex justify-center mx-auto relative transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-        <Summary content={['코딩부터', '서버 운용까지']} position={{ top: '20px', left: '30px' }} animate="animate-fadeInLeft" />
+      <div
+        className={`w-container flex justify-start mx-auto relative transition-opacity duration-1000 ${
+          isVisible ? 'opacity-100' : 'opacity-0'
+        } text-right`}
+      >
         <ProfileImg />
+        <Summary content={['코딩부터', '서버 운용까지']} position={{ top: '100px', right: '185px' }} animate="animate-fadeInLeft" />
         <Summary content={['개발의', '모든 것']} position={{ bottom: '50px', right: '185px' }} animate="animate-fadeInRight" />
       </div>
       <SloganBg align="text-right" animate="animate-fadeInRight">
@@ -25,11 +29,11 @@ function Info() {
 }
 
 function SloganBg({ align = 'text-start', animate, children }) {
-  return <div className={`text-[10vw] text-[#f9f9f9] ${align} ${animate}`}>{children}</div>
+  return <div className={`text-[8vw] text-[#bdbdbd] ${align} ${animate}`}>{children}</div>
 }
 
 function ProfileImg() {
-  return <img src="/images/user/여권사진.jpg" alt="프로필 사진" className="rounded-lg shadow-lg" />
+  return <img src="/images/user/profile1.png" alt="프로필 사진" className="rounded-lg shadow-lg w-96" />
 }
 
 function Summary({ content, position, animate }) {
