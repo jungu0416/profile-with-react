@@ -14,7 +14,8 @@ function Main() {
             <p className="text-sm text-gray-700 animate-ticker">🚀 이 서버는 마포구 어느 방구석에서 실행 중입니다... 🚀</p>
           </div>
           <div className="text-m text-gray-400 m-2">
-            <Link to="/whyHomeserver" className="flex items-center ">
+            {/* <Link to="/whyHomeserver" className="flex items-center "> */}
+            <Link to="/#" className="flex items-center ">
               AWS에서 방구석 홈서버로 갈아탄 이유
               <ArrowRight />
             </Link>

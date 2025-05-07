@@ -26,12 +26,12 @@ function Menu() {
     <ul className="flex gap-10">
       <li>
         <Button>
-          <a href="https://naver.com">blog</a>
+          <a href="/">blog</a>
         </Button>
       </li>
       <li>
         <Button>
-          <a href="https://naver.com">Projects</a>
+          <a href="/">Projects</a>
         </Button>
       </li>
       <li>
